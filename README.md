@@ -364,6 +364,7 @@ The yarn packager supports the following `packagerOptions`:
 | Option        | Type | Default | Description |
 |---------------|------|---------|-------------|
 | ignoreScripts | bool | true    | Do not execute package.json hook scripts on install |
+| networkConcurrency | int  | 8       | Specify number of concurrent network requests |
 
 ##### Common packager options
 
